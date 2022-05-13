@@ -1,0 +1,78 @@
+.services-different {
+  background-image: url(../../img/qoshtirnoq.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 620px) calc(50% - 165px);
+  background-color: #1B2330;
+}
+
+.serevices-different__inner {
+  padding-top: 80px;
+  padding-bottom: 101px;
+}
+
+.services-different__list {
+  list-style-type: none;
+  display: flex;
+}
+
+.services-different-item {
+  padding: 40px 24px 26px 26px;
+  margin-right: 40px;
+  background-color: #202A3C;
+  width: 360px;
+}
+
+.services-different-item:last-child {
+  margin-right: 40px;
+}
+
+.services-different__text {
+  margin-bottom: 24px;
+  font-family: "Raleway";
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.services-different__div {
+  display: flex;
+}
+
+.services-different__img {
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.services-different__div-next-text {
+  margin-bottom: 4px;
+  font-family: 'OpenSans';
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.services-different__div-next-p {
+  font-family: 'OpenSans';
+  font-size: 8px;
+  line-height: 10px;
+  letter-spacing: 0.571429px;
+  color: #FFFFFF;
+}
+@include breakpoint-down(400px) {
+  .services-different__list {
+    margin-left: 48px;
+    flex-direction: column;
+  }
+  .services-different-item {
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    padding-top: 24px;
+    width: 280px;
+  }
+  .services-different__text {
+    margin-bottom: 17px;
+    width: 240px;
+  }
+}

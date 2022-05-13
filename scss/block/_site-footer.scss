@@ -1,0 +1,115 @@
+
+.site-footer {
+  background-color: #0B1524;
+}
+.site-footer__inner {
+  padding-bottom: 97px;
+  
+}
+.site-footer__inner-next {
+  display: flex;
+}
+.site-footer__img {
+  margin-bottom: 32px;
+  margin-top: 220px;
+  width: 176px;
+  height: 52px;
+}
+.site-footer__div {
+  display: flex;
+}
+.site-footer-div-img {
+  margin-right: 27px;
+}
+.site-footer-text {
+  margin-right: 84px;
+  width: 399px;
+  font-family: "Raleway";
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.site-footer__small-div {
+  margin-right: 146px;
+}
+.site-footer__small-div-list {
+  list-style-type: none;
+}
+.site-footer__small-div-link {
+  display: flex;
+  text-decoration: none;
+}
+.site-footer__small-div-link-img {
+  margin-right: 26px;
+  margin-bottom: 25px;
+}
+.site-footer__small-div-p {
+  font-family: "Raleway";
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+}
+.site-footer__mini-div {
+  display: flex;
+}
+.site-footer__mini-div-list {
+  margin-right: 80px;
+  list-style-type: none;
+}
+.site-footer__mini-div-item {
+  margin-bottom: 16px;
+}
+.site-footer__mini-div-link {
+  font-family: "Raleway";
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+  text-decoration: none;
+}
+.site-footer-otehr-div {
+  display: flex;
+  margin-left: 44px;
+}
+.site-footer-otehr-div-list {
+  display: flex;
+  list-style-type: none;
+}
+.site-footer-otehr-div-link-img {
+  margin-right: 17px;
+}
+@include breakpoint-down(400px) {
+  .site-footer__inner {
+    flex-direction: column;
+  }
+  .site-footer__img {
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+  .site-footer__inner-next {
+    flex-direction: column;
+  }
+  .site-footer-div-img {
+    margin-left: 31px;
+  }
+  .site-footer__small-div {
+    margin-bottom: 83px;
+  }
+  .site-footer__small-div-link {
+    margin-left: 25px;
+  }
+  .site-footer__small-div-p {
+    margin-bottom: 16px;
+  }
+  .site-footer__mini-div {
+    flex-direction: column;
+  }
+  .site-footer__mini-div-list {
+    margin-bottom: 48px;
+    margin-left: 30px;
+    
+  }
+  .site-footer-otehr-div-list {
+    margin-left: 100px;
+  }
+}

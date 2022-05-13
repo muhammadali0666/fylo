@@ -1,0 +1,132 @@
+.cta {
+
+  background-color: #1B2330;
+}
+
+.cta__inner {
+  margin-left: 80px;
+
+  padding-top: 42px;
+  padding-bottom: 41px;
+}
+
+.cta__shrift {
+  margin-left: 160px;
+  width: 347px;
+  margin-bottom: 16px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.cta__text {
+  margin-left: 20px;
+  width: 673px;
+  margin-bottom: 38px;
+  font-family: "Raleway";
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.cta__inner-next {
+  display: flex;
+}
+
+.cta__form {
+  margin-right: 29px;
+}
+
+.cta__check {
+  background: #FFFFFF;
+  box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+  border-radius: 24px;
+  padding-top: 17px;
+  padding-right: 208px;
+  padding-bottom: 15px;
+  padding-left: 38px;
+}
+
+.cta__button {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-right: 26px;
+  padding-bottom: 15px;
+  padding-left: 27px;
+  background: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+  box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+  border-radius: 24px;
+}
+.cta__container {
+  background-color: #1B2330;
+  position: relative;
+  transform: translateY(+120px);
+  width: 903px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@include breakpoint-down(400px) {
+  .cta__container {
+    width: 336px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .cta__inner {
+    margin-left: 26px;
+    padding-right: 0;
+    width: 336px;
+    padding-left: 20;
+  }
+
+  .cta__shrift {
+    margin-left: 70px;
+    width: 195px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+
+  .cta__text {
+    margin-bottom: 36px;
+    margin-left: 25px;
+    width: 280px;
+  }
+
+  .cta__inner-next {
+    margin-left: 25px;
+    flex-direction: column;
+    width: 280px;
+  }
+
+  .cta__form {
+    margin-left: 20px;
+    width: 280px;
+  }
+
+  .cta__check {
+    margin-bottom: 24px;
+    width: 280px;
+  }
+
+  .cta__button {
+    margin-left: 20px;
+    width: 280px;
+  }
+}
